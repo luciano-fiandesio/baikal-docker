@@ -1,4 +1,4 @@
-This dockerfile provides a ready-to-go [Baikal](http://baikal-server.com/) server.
+This Dockerfile provides a ready-to-go [Baikal](http://baikal-server.com/) server.
 
 Inspiration:
 	- https://github.com/ckulka/baikal-docker
@@ -8,7 +8,6 @@ Inspiration:
 
 Uses the latest version of Baikal, 0.4.6
 
-
 ### Run
 
 The following command will run Baikal over HTTP:
@@ -17,4 +16,4 @@ The following command will run Baikal over HTTP:
 
 ### Persistent Data
 
-The image exposes the ```/var/www/baikal/Specific``` folder, which contains the persistent data. This folder should be part of a regular backup.
+The image exposes the `/baikal/Specific` folder, which contains the persistent data. This folder should be part of a regular backup.
