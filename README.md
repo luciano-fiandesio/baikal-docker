@@ -12,7 +12,7 @@ Uses the latest version of Baikal, 0.4.6
 
 The following command will run Baikal over HTTP:
 
-	docker run --rm -it -p 80:80 --volume /data/baikal:/baikal/Specific lucianofiandesio/baikal
+	docker run --rm -it -p 80:80 --volume /data/baikal/Specific:/app/baikal/Specific lucianofiandesio/baikal
 
 ### Persistent Data
 
